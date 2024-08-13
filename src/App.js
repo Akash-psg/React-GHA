@@ -1,17 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import Users from './Users';
+// src/App.js
+import React from 'react';
 import QuestionsList from './QuestionsList';
+import './App.css'; // Import your CSS file
 
-function App() {
-  return (
-    <div className="App">
+const App = () => {
+    return (
+        <div className="App">
             <header className="App-header">
                 <h1>My React App</h1>
                 <QuestionsList />
             </header>
         </div>
-  );
-}
+    );
+};
 
 export default App;
